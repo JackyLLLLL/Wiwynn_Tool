@@ -17,7 +17,8 @@ for count in count:
     with open (file_path, "r") as f:
         data = f.read()
 
-        if  "Temp_HD_0 = " in data:
+        if  "Temp_HD_0 = 00 Init" in data:
+            #確認Temp_HD_0 = 00 Init有在檔案內
             print(file_path)
             print(data)
 
