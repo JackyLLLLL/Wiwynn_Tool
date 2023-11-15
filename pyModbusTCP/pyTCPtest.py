@@ -1,7 +1,7 @@
 import yaml
 from pyModbusTCP.client import ModbusClient
 
-yaml_path = r"/home/jackywnlin/mnt_jacky_link/python3_file/CDU_ip.yaml"
+yaml_path = r"/home/jackywnlin/mnt_jacky_link/pyModbusTCP/CDU_ip.yaml"
 
 
 #2059-2066 range=1
