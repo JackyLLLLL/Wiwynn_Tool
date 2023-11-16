@@ -1,18 +1,34 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import csv
+import os
 from datetime import datetime, timedelta
 
 
-log_path = r"C:\Users\11203638\Desktop\idle_time_data\Monica\C41A8_Gen2\M1289073902P3312000206E\M1289073902P3312000206E_history.log"
-aws_log_path = r"C:\Users\11203638\Desktop\idle_time_data\AWS\Teton_Prime_Gen1\WAA5HN34100FL_history.log"
-meta_log_path = r"C:\Users\11203638\Desktop\idle_time_data\Meta\BZA04M01001L3390013N1B_history.log"
 
+log_path = r"C:\Users\11203638\Desktop\idle_time_calculate\Monica\C41A8_Gen2\M1289073902P3312000206E\M1289073902P3312000206E_history.log"
+# aws_log_path = r"C:\Users\11203638\Desktop\idle_time_calculate\AWS\Teton_Prime_Gen1\WAA5HN34100FL_history.log"
+# meta_log_path = r"C:\Users\11203638\Desktop\idle_time_calculate\Meta\BZA04M01001L3390013N1B_history.log"
+# meta_log_path = r"C:\Users\11203638\Desktop\idle_time_calculate\Meta\golden.log"
+
+log_path = r"C:\Users\11203638\Desktop\idle_time_calculate\Monica\C41A8_Gen2\M1289073902P3312000206E\test.log"
+
+###########################################
+output_filename = fr"Idle_time.csv"
+output_file_path = output_filename
+counter = 1
+while os.path.exists(output_file_path):
+    filename, extension = os.path.splitext(output_filename)
+    output_file_path = f"{filename}_{counter}{extension}"
+    counter += 1
+#############################################
 previous_end_time = None
 total_idle_time = timedelta()
 no_idle_time = timedelta()
+stage_idle_times = {}
 
-with open(meta_log_path, 'r') as file:
+
+with open(log_path, 'r') as file:
     header = file.readline().split()
 
     # Determine log format based on header
@@ -26,9 +42,9 @@ with open(meta_log_path, 'r') as file:
     else:
         raise ValueError("Unsupported log format")
 
-    # with open("output.csv","w",newline='') as csvfile:
-    #     writer = csv.writer(csvfile)
-    #     writer.writerow(["ID","Stage", "Name","IDLE time"])
+    with open(output_file_path,"w",newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["ID","Stage", "Name","IDLE time"])
 
     for line in file:
         parts = line.split()
@@ -48,11 +64,16 @@ with open(meta_log_path, 'r') as file:
                         pass
                     else:
                       
-                        # with open("output.csv","a",newline='') as csvfile:
-                        #     writer = csv.writer(csvfile)
-                        #     writer.writerow([id,stage,name,idle_time])
+                        with open(output_file_path,"a",newline='') as csvfile:
+                            writer = csv.writer(csvfile)
+                            writer.writerow([id,stage,name,idle_time])
                         print(f"{id} {stage} {name} {idle_time}")
                         total_idle_time += idle_time
+
+                        if stage in stage_idle_times:
+                            stage_idle_times[stage] += idle_time
+                        else:
+                            stage_idle_times[stage] = idle_time
 
                 previous_end_time = end_time
 
@@ -82,5 +103,20 @@ with open(meta_log_path, 'r') as file:
             else:
                 print(f"Unsupported log format in line: {line}")
                 continue
-        
-    print(f"Total IDLE Time: {total_idle_time}")
+
+    # 列印每個 STAGE 的 IDLE 時間總和
+    print("Stage IDLE Times:")
+
+with open(output_file_path,"a",newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(["Stage","IDLE_time"])
+
+for stage, idle_time in stage_idle_times.items():
+    
+    with open(output_file_path,"a",newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow([stage,idle_time])
+    print(f"{stage}: {idle_time}")
+
+print(f"Total IDLE Time: {total_idle_time}")
+print(f"Out Put File name:{output_file_path}")
