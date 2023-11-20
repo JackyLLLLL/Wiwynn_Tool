@@ -27,9 +27,12 @@ with open (yaml_path,"r",encoding="utf-8") as file:
         
         z = []
 
-        for s in s:
-         s = s * 0.1
-         z.append('%.1f'%s)
+        try:
+            for s in s: 
+                s = s * 0.1
+                z.append('%.1f'%s)
+        except TypeError:
+            print(f"Error,{name},ip:{ipaddress}")
 
         try:
             z.insert(0,name)
