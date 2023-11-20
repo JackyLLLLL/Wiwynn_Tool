@@ -1,4 +1,5 @@
 import yaml
+import time
 from pyModbusTCP.client import ModbusClient
 
 yaml_path = r"/home/jackywnlin/mnt_jacky_link/pyModbusTCP/CDU_ip.yaml"
@@ -20,7 +21,7 @@ with open (yaml_path,"r",encoding="utf-8") as file:
         Range = cfg[tank_id]["range"]
 
         # TCP auto connect on first modbus request
-        c = ModbusClient(host=ipaddress, port=port, auto_open=True, auto_close=True)
+        c = ModbusClient(host=ipaddress, port=port, auto_open=True, auto_close=True,timeout=0.2)
         # Address: 4096 , bit: 1x16 bit
         
         s = c.read_holding_registers(address, Range)
@@ -44,7 +45,7 @@ with open (yaml_path,"r",encoding="utf-8") as file:
             
             print(z)
 
-        except AttributeError :
+        except (TimeoutError,AttributeError) :
             print(f"Error,{name},ip:{ipaddress}")
 
 
