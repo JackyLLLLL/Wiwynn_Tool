@@ -1,0 +1,475 @@
+tank01:
+  name: T01
+  ipaddress: 172.22.185.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank02:
+  name: T02
+  ipaddress: 172.22.187.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank03:
+  name: T03
+  ipaddress: 172.22.189.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank04:
+  name: T04
+  ipaddress: 172.22.191.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank05:
+  name: T05
+  ipaddress: 172.22.193.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank06:
+  name: T06
+  ipaddress: 172.22.195.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank07:
+  name: T07
+  ipaddress: 172.22.197.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank08:
+  name: T08
+  ipaddress: 172.22.199.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank09:
+  name: T09
+  ipaddress: 172.22.201.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank10:
+  name: T10
+  ipaddress: 172.22.203.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank11:
+  name: T11
+  ipaddress: 172.22.205.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank24:
+  name: T24
+  ipaddress: 172.22.231.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank25:
+  name: T25
+  ipaddress: 172.22.233.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank26:
+  name: T26
+  ipaddress: 172.22.235.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank27:
+  name: T27
+  ipaddress: 172.22.237.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank28:
+  name: T28
+  ipaddress: 172.22.239.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank29:
+  name: T29
+  ipaddress: 172.22.241.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank30:
+  name: T30
+  ipaddress: 172.22.243.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
+tank31:
+  name: T31
+  ipaddress: 172.22.245.250
+  port: 502
+  Secondary Flow Rate: 4096
+  Secondary Treturn : 4097
+  Secondary Tsupply : 4098
+  Primary Tinlet : 4099
+  Primary Pinlet : 4100
+  Ta : 4101
+  R. Humidity : 4102
+  Dew Point : 4103
+  Remove Heat : 4104
+  Pump Output : 4105
+  Cooling : 4106
+
+  Alert_Secondary Tsupply : 2059
+  Alert_Primary Tinlet : 2060
+  Alert_Primary Pinlet : 2061
+  Alert_Leakage : 2062
+  Alert_Fan Status : 2063
+  Alert_Liquid High : 2064
+  Alert_Liquid Low : 2065
+  Alert_Pump Status : 2066
+
